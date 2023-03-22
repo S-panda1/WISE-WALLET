@@ -1,0 +1,25 @@
+pubspec.yaml
+dependencies:
+webview_flutter:^2.0.9
+
+android->app->src->build.gradile->scroll to defaultconfig minSdkVersion 19
+
+flutter pub get
+
+main.drt
+import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview.flutter.dart;
+
+void main(){
+	runApp(const MaterialApp(
+		debugShowCheckedModeBanner:false,
+		home:Scaffold(
+			body:SafeArea(
+				child:WebView(
+					initialUrl='',
+					javascriptMode=JavaScriptMode.unrestricted,
+				),
+			),
+		),
+	));
+}
