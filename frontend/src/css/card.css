@@ -1,0 +1,55 @@
+.card{
+    width: 95%;
+    min-height: 80px;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    padding: 10px;
+    border: none;
+}
+
+.left-card img{
+    position: relative;
+    top: 1em;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.right-card .cardTop{
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardAmount .cardright{
+    display: grid;
+}
+
+.cardright .x{
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+
+.right-card .cardAmount{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.carddown{
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+}
+
+.carddown .arrow{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.cardend{
+    width: 90%;
+    margin: 0.5rem auto;
+}

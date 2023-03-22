@@ -1,0 +1,16 @@
+.dt{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    z-index: 20;
+    font-weight: 400;
+    background-color: #98f9ec;
+    color: #121212;
+    font-weight: 400;
+    font-size: 1.2rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

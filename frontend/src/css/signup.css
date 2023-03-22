@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0.5fr 2.5fr 6fr;
+}
+
+
+.top-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.page{
+    color: #15ff44;
+    text-decoration: none;
+}
+.middle-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-pic img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.sign-up-form{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.signup-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-color: #15ff44;
+    padding: 20px;
+    border-radius: 20px;
+    /* color: #14b01e; */
+    color: #fff;
+    min-width: 300px;
+}
+
+.signup-card .title{
+    color: #14b01e;
+    margin: auto auto;
+}
+
+.signup{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    background: transparent;
+}
+
+.btn {
+    -webkit-border-radius: 50;
+    -moz-border-radius: 50;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 1px 4px #666666;
+    -moz-box-shadow: 0px 1px 4px #666666;
+    box-shadow: 0px 1px 4px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #09c52e;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .btn:hover {
+    background: #fff;
+    text-decoration: none;
+    color: #15ff44;
+  }
+

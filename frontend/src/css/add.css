@@ -1,0 +1,64 @@
+.trxntitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trxntitle p{
+    margin: 6px;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.addtrxnform{
+    display: flex;
+    flex-direction: column;
+    margin: auto 10px;
+    padding: 3px;
+    line-height: 30px;
+}
+
+.trxndt{
+    border: none;
+    max-width: 90%;
+}
+
+.ttype{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.addin, .addex{
+    height: 40px;
+    width: 50vw;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.addin{
+    border-bottom: 2px solid #39e939;
+    background-color: #39e939;
+}
+
+.addex{
+    border-bottom: 2px solid red;
+    background-color: red;
+}
+
+.disp{
+    display: none;
+}
+
+.incat{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#description{
+    break-before: 10px;
+}
+
