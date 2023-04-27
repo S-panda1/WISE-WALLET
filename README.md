@@ -15,7 +15,7 @@ WISE WALLET is a budget management application that provides financial advice vi
 WISE WALLET is currently in development and not yet available for installation.
 
 # Contributing
-WISE WALLET is an open-source project, and contributions are welcome. Please read the CONTRIBUTING.md file for more information on how to contribute.
+WISE WALLET is an open-source project, and contributions are welcome. 
 
 
 
